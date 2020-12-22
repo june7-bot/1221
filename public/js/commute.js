@@ -1,5 +1,4 @@
 $(function() {
-
     var today = new Date();
     var h = today.getHours();
     var m = today.getMinutes();
@@ -13,8 +12,6 @@ $(function() {
 
     $('.goWork').click(function(){
 
-
-
         $.ajax({
             type: 'GET',
             url: 'gowork',
@@ -24,9 +21,12 @@ $(function() {
                 end_date: date,
             },
             dataType:"JSON"
-        }).done(function(){
+        }).done(function(status){
+            if((status.status)==404 ) {
+                alert('이미 출근 눌렀습니다')
+            }else{
             location.reload()
-            console.log('성공')
+            }
         }).fail(function(){
             console.log('실패')
         })
@@ -43,11 +43,12 @@ $(function() {
                 end_date: date,
             },
             dataType:"JSON"
-        }).done(function(){
-            location.reload()
-            console.log('성공')
+        }).done(function(status){
+            if((status.status)==404 ){
+                alert('이미 퇴근 눌렀습니다')
+            }
         }).fail(function(){
-            console.log('실패')
+            location.reload()
         })
     })
 })

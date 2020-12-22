@@ -10,11 +10,8 @@ class VacationController extends Controller
 {
     public function index()
     {
-        $vacation = Event::create([
-            'title' => request()->title,
-            'start_date' => request()->start_date,
-            'end_date' => request()->end_date,
-        ]);
+
+        $vacation = Event::insertDb(request()->title,request()->start_date, request()->end_date, 2 );
 
         $event [] = Calendar::event(
             $vacation->title,
@@ -22,9 +19,10 @@ class VacationController extends Controller
             new \DateTime($vacation->start_date),
             new \DateTime($vacation->end_date . ' +1 day'),
             null,
-            [
-                'color' => '#f05050',
-            ]
+                [
+                'color' => "#444444",
+                'url' => '#',
+                 ]
         );
         Calendar::addEvents($event);
         $res = array('status' => 200);

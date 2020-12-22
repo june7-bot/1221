@@ -20,5 +20,4 @@ Route::get('gowork', 'CommuteController@goWork');
 Route::get('gohome', 'CommuteController@goHome');
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');

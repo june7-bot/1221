@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ddaf786-1a1e-4f4e-8e49-32949251b290" name="Default Changelist" comment="" />
+    <list default="true" id="9ddaf786-1a1e-4f4e-8e49-32949251b290" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommuteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommuteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EventController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EventController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VacationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VacationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_20_010654_create_events_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_20_010654_create_events_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/AddDumyEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AddDumyEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/commute.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/commute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/fullcalender.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fullcalender.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -17,6 +31,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -123,6 +140,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\82108\1221\resources\views" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -138,10 +160,27 @@
       <option name="presentableId" value="Default" />
       <updated>1608425762355</updated>
       <workItem from="1608425763592" duration="8667000" />
+      <workItem from="1608506008557" duration="1900000" />
+      <workItem from="1608507926384" duration="3856000" />
+      <workItem from="1608526386724" duration="658000" />
+      <workItem from="1608527274023" duration="1802000" />
+      <workItem from="1608591305393" duration="6772000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
